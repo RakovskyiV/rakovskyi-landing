@@ -1,165 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5VLXX9043"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-H5VLXX9043');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viacheslav Rakovsky — Ukrainian Visionary DOP/Dir/Prod | #UkrainianDOP #WoodstockFF</title>
-    <meta name="description" content="Ukrainian DOP, Director, Producer specializing in documentary and narrative cinema. Co-productions for IDFA, NFF 2025. Hire for 2025 projects.">
-    <meta name="keywords" content="Ukrainian DOP, Viacheslav Rakovsky, documentary filmmaker, Woodstock FF, IDFA 2025, #UkrainianDOP #WoodstockFF">
+    <title>Viacheslav Rakovsky — Ukrainian DOP/Dir/Prod | #UkrainianDOP #WoodstockFF</title>
+    <meta name="description" content="Ukrainian DOP, Director, Producer. Co-productions for IDFA, NFF 2025. Hire for documentary & narrative cinema.">
+    <meta name="keywords" content="Ukrainian DOP, Viacheslav Rakovsky, The Ark, Woodstock FF, IDFA 2025, #UkrainianDOP #WoodstockFF">
+    <meta property="og:title" content="Viacheslav Rakovsky — Ukrainian Visionary DOP/Dir/Prod">
+    <meta property="og:description" content="Кожен кадр — акт усвідомлення. Co-productions UA-USA-Europe. Hire for 2025.">
+    <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BNTc0ZjQ5MDQtZjQ5Mi00ZjQ5LWE5ZjgtZjQ5ZjQ5ZjQ5ZjQ5XkEyXkFqcGdeQXVyMjM5MjM5MjM@._V1_.jpg">
+    <meta property="og:url" content="https://rakovskyi.com">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://rakovskyi.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #F8F9FA;
-            --text-color: #666;
-            --accent-color: #007BFF;
-            --white: #fff;
-            --gray: #333;
+            --bg: #F8F9FA;
+            --text: #666;
+            --accent: #007BFF;
+            --dark: #333;
+            --light: #fff;
+            --shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
         @media (prefers-color-scheme: dark) {
             :root {
-                --bg-color: #121212;
-                --text-color: #ddd;
-                --white: #1e1e1e;
-                --gray: #eee;
+                --bg: #121212;
+                --text: #ddd;
+                --light: #1e1e1e;
+                --dark: #eee;
             }
         }
-        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: var(--bg-color); color: var(--text-color); line-height: 1.6; font-size: 16px; }
-        h1 { font-size: 48px; font-weight: 700; color: var(--gray); margin: 0; text-align: center; }
-        h2 { font-size: 32px; font-weight: 600; color: var(--gray); margin: 80px 0 40px; }
-        section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
-        .hero { background: url('https://source.unsplash.com/1600x900/?cinematographer,ukraine') no-repeat center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--white); }
-        .hero-content { background: rgba(0,0,0,0.5); padding: 40px; border-radius: 8px; }
-        .cta { background: var(--accent-color); color: var(--white); padding: 16px 32px; border: none; font-size: 18px; cursor: pointer; border-radius: 4px; transition: opacity 0.3s; }
-        .cta:hover { opacity: 0.8; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .project-card { position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: opacity 0.3s; }
-        .project-card:hover { opacity: 0.8; }
-        .project-card img { width: 100%; height: 400px; object-fit: cover; }
-        .overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); color: var(--white); padding: 20px; }
-        .testimonial { background: var(--white); padding: 40px; border-radius: 8px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-style: italic; }
-        form { display: flex; flex-direction: column; gap: 16px; max-width: 500px; margin: 0 auto; }
-        input, textarea { padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; }
-        iframe { width: 100%; height: 500px; border: none; } /* Google Forms iframe */
-        .partners { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-        .partners a { color: var(--accent-color); text-decoration: none; }
-        @media (max-width: 768px) { h1 { font-size: 32px; } section { padding: 40px 10px; } .grid { grid-template-columns: 1fr; } }
-        /* Vignette effect */ .project-card { box-shadow: 0 0 20px rgba(0,0,0,0.5) inset; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 16px; }
+        h1, h2, h3 { color: var(--dark); margin: 0; font-weight: 700; }
+        h1 { font-size: 48px; }
+        h2 { font-size: 36px; margin: 80px 0 32px; text-align: center; }
+        section { padding: 80px 20px; max-width: 1240px; margin: 0 auto; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://m.media-amazon.com/images/M/MV5BNTc0ZjQ5MDQtZjQ5Mi00ZjQ5LWE5ZjgtZjQ5ZjQ5ZjQ5ZjQ5XkEyXkFqcGdeQXVyMjM5MjM5MjM@._V1_.jpg') center/cover no-repeat;
+            height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff;
+        }
+        .hero h1 { font-size: 56px; margin-bottom: 16px; }
+        .hero p { font-size: 20px; max-width: 800px; margin: 0 auto 32px; }
+        .cta {
+            background: var(--accent); color: #fff; padding: 16px 40px; font-size: 18px; font-weight: 600;
+            border: none; border-radius: 6px; cursor: pointer; transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+        }
+        .cta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,123,255,0.4); }
+
+        /* Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; }
+        .project-card {
+            position: relative; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow);
+            transition: transform 0.3s, opacity 0.3s; background: var(--light);
+        }
+        .project-card:hover { transform: translateY(-8px); opacity: 0.92; }
+        .project-card img { width: 100%; height: 420px; object-fit: cover; display: block; }
+        .overlay {
+            position: absolute; bottom: 0; left: 0; right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.85));
+            color: #fff; padding: 24px; transform: translateY(20px); transition: transform 0.3s;
+        }
+        .project-card:hover .overlay { transform: translateY(0); }
+        .overlay h3 { margin: 0 0 8px; font-size: 20px; }
+        .overlay p { margin: 0; font-size: 14px; opacity: 0.9; }
+
+        /* Vignette */
+        .project-card::after {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            box-shadow: inset 0 0 60px rgba(0,0,0,0.5); pointer-events: none; border-radius: 12px;
+        }
+
+        /* Testimonials */
+        .testimonial {
+            background: var(--light); padding: 32px; border-radius: 12px; margin: 32px 0;
+            box-shadow: var(--shadow); font-style: italic; text-align: center; font-size: 18px;
+        }
+
+        /* Form */
+        .form-container { max-width: 560px; margin: 0 auto; }
+        form { display: grid; gap: 16px; }
+        input, textarea {
+            padding: 14px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit;
+            background: var(--light); color: var(--dark); font-size: 16px;
+        }
+        input:focus, textarea:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+
+        /* Partners */
+        .partners { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 15px; }
+        .partners a { padding: 8px 0; white-space: nowrap; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .hero h1 { font-size: 42px; }
+            .hero p { font-size: 18px; }
+            section { padding: 60px 16px; }
+            .grid { grid-template-columns: 1fr; }
+            .project-card img { height: 360px; }
+        }
     </style>
 </head>
 <body>
+
+    <!-- HERO -->
     <section class="hero">
-        <div class="hero-content">
+        <div>
             <h1>Viacheslav Rakovsky</h1>
             <p>Ukrainian Visionary DOP / Director / Producer</p>
-            <p>Кожен кадр — акт усвідомлення. Bringing emotional depth to cinema through minimalist composition and natural light in zones of conflict.</p>
+            <p style="font-size:22px; font-weight:500;">Кожен кадр — акт усвідомлення</p>
+            <p>Emotional depth through minimalist composition and natural light in conflict zones.</p>
             <br>
-            <button class="cta" onclick="document.getElementById('contact').scrollIntoView();">Співпрацюймо на вашому проекті — Hire for 2025 Projects</button>
+            <button class="cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">
+                Співпрацюймо на вашому проекті — Hire for 2025
+            </button>
         </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about">
         <h2>About Me</h2>
-        <p>As a DOP, Director, and Producer with over 10 years in Ukrainian and international cinema, I craft narratives of hope in conflict zones. Inspired by Hoyte van Hoytema's mastery, my work emphasizes natural lighting, emotional depth, and simple yet powerful frames for art-house and mainstream. Member of the National Union of Cinematographers of Ukraine (NSKU, 1223 members strong). Education: Kyiv National University of Theatre, Film and TV. Languages: Ukrainian (native), English (fluent). Skills: ARRI/RED cameras, DaVinci Resolve color grading, DJI Ronin stabilization. Focused on co-productions UA-USA, UA-Europe for IDFA (Nov 13-23, 2025, Amsterdam) and NFF (Sep 26-Oct 3, 2025, Utrecht).</p>
+        <p style="max-width:900px; margin:0 auto; text-align:center; font-size:18px;">
+            DOP, Director, and Producer with over 10 years crafting narratives of hope in conflict zones. 
+            Inspired by <strong>Hoyte van Hoytema</strong> — I use natural light, simple frames, and emotional depth 
+            for art-house and mainstream audiences.
+        </p>
+        <p style="text-align:center; margin:24px 0;">
+            <strong>Member:</strong> National Union of Cinematographers of Ukraine (NSKU)<br>
+            <strong>Education:</strong> Kyiv National University of Theatre, Film and TV<br>
+            <strong>Languages:</strong> Ukrainian (native), English (fluent)<br>
+            <strong>Tools:</strong> ARRI • RED • DaVinci Resolve • DJI Ronin
+        </p>
         <div class="testimonial">
-            "Viacheslav's vision brought our story to life with boundless empathy and creative instincts." — Kyra Sedgwick, Narrator & EP, <em>The Ark</em> (World Premiere: Woodstock FF, Oct 2025)
+            “Viacheslav’s vision brought our story to life with boundless empathy and creative instincts.” 
+            <br>— <strong>Kyra Sedgwick</strong>, Narrator & EP, <em>The Ark</em> (Woodstock FF 2025)
         </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
-        <h2>Projects</h2>
-        <p>Highlights from my portfolio, blending documentary hope with narrative power. Premieres 2025: Odesa IFF (Sep 24-Oct 4, Kyiv), Docudays UA (Jun 6-13, Kyiv), Molodist Kyiv IFF (Oct 25-Nov 2, Kyiv).</p>
+        <h2>Selected Projects</h2>
+        <p style="text-align:center; max-width:800px; margin:0 auto 48px;">
+            Premieres 2025: <strong>Odesa IFF</strong> (Sep 24–Oct 4), <strong>Docudays UA</strong> (Jun 6–13), <strong>Molodist</strong> (Oct 25–Nov 2)
+        </p>
+
         <div class="grid">
+            <!-- The Ark -->
             <div class="project-card">
-                <a href="https://www.imdb.com/title/tt34467658/" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?documentary,animals,ukraine" alt="The Ark poster">
+                <a href="https://www.imdb.com/title/tt34467658/" target="_blank" rel="noopener">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNTc0ZjQ5MDQtZjQ5Mi00ZjQ5LWE5ZjgtZjQ5ZjQ5ZjQ5ZjQ5XkEyXkFqcGdeQXVyMjM5MjM5MjM@._V1_.jpg" alt="The Ark (2025) poster" loading="lazy">
                     <div class="overlay">
                         <h3>The Ark (2025)</h3>
-                        <p>Co-Dir/DOP: Ukrainian family saves 1000+ animals amid war. Natural light captures resilience. World Premiere: Woodstock FF; Nominated Leon Gast Award, Best Feature Doc.</p>
+                        <p>Co-Dir/DOP • Ukrainian family saves 1000+ animals amid war. Natural light. <br>
+                        <strong>Woodstock FF:</strong> World Premiere, Leon Gast Nominee</p>
                     </div>
                 </a>
             </div>
+
+            <!-- I Work at the Cemetery -->
             <div class="project-card">
-                <a href="https://www.youtube.com/watch?v=j-WbyY-31ow" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?cemetery,kyiv" alt="I Work at the Cemetery BTS">
+                <a href="https://www.youtube.com/watch?v=j-WbyY-31ow" target="_blank" rel="noopener">
+                    <img src="https://i.ytimg.com/vi/j-WbyY-31ow/maxresdefault.jpg" alt="I Work at the Cemetery trailer thumbnail" loading="lazy">
                     <div class="overlay">
                         <h3>I Work at the Cemetery (2021)</h3>
-                        <p>DOP: Black comedy on loss and redemption. Night setups with natural fog on Kyiv cemetery. Best Cinematography: Montelupo IIFF; Best Film: Munich IFA.</p>
+                        <p>DOP • Black comedy on loss. Night setups with natural fog. <br>
+                        <strong>Best Cinematography:</strong> Montelupo IIFF • <strong>Best Film:</strong> Munich IFA</p>
                     </div>
                 </a>
             </div>
+
+            <!-- Silent Nava (In Development) -->
             <div class="project-card">
-                <a href="https://www.imdb.com/name/nm11379161/" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?ukraine,war,silent" alt="Silent Nava hook">
+                <a href="https://www.imdb.com/name/nm11379161/" target="_blank" rel="noopener">
+                    <img src="https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Silent Nava concept" loading="lazy">
                     <div class="overlay">
                         <h3>Silent Nava (In Dev.)</h3>
-                        <p>Dir/Prod: Narrative of quiet resistance in conflict. Focus on emotional depth via mono frames. Co-prod UA-Europe for IDFA 2025.</p>
+                        <p>Dir/Prod • Narrative of quiet resistance. Mono frames. <br>
+                        Seeking co-prod for <strong>IDFA 2025</strong></p>
                     </div>
                 </a>
             </div>
+
+            <!-- Kakhovka Object -->
             <div class="project-card">
-                <a href="https://source.unsplash.com/600x800/?kakhovka,dam,ukraine" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?flood,ukraine" alt="Kakhovka Object hook">
+                <a href="https://rakovskyi.com/kakhovka" target="_blank" rel="noopener">
+                    <img src="https://images.unsplash.com/photo-1682687220742-3d8b0b2273b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kakhovka Object BTS" loading="lazy">
                     <div class="overlay">
                         <h3>Kakhovka Object (2025)</h3>
-                        <p>DOP: Anti-Soviet action-doc on bunker horrors post-dam collapse. Natural lighting in flooded ruins. Premiere: Odesa IFF 2025.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="project-card">
-                <a href="https://www.imdb.com/title/tt29421159/" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?family,album,ukraine" alt="Family Album hook">
-                    <div class="overlay">
-                        <h3>Family Album (2024)</h3>
-                        <p>Prod: Photo-doc on Holodomor witnesses and war. Compositional minimalism for generational memory. Official Selection: Docudays UA 2025.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="project-card">
-                <a href="https://www.imdb.com/name/nm11379161/" target="_blank">
-                    <img src="https://source.unsplash.com/600x800/?behind,scenes,film" alt="BTS General">
-                    <div class="overlay">
-                        <h3>V temriavi (Short)</h3>
-                        <p>DOP: Experimental shadows in urban Kyiv. DaVinci grading for emotional contrast.</p>
+                        <p>DOP • Anti-Soviet bunker doc. Flooded ruins. Natural light. <br>
+                        Premiere: <strong>Odesa IFF 2025</strong></p>
                     </div>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- AWARDS -->
     <section id="awards">
-        <h2>Awards & Festival Recognitions</h2>
-        <ul>
-            <li><strong>The Ark (2025)</strong>: Nominated Leon Gast Award, Best Feature Documentary (Woodstock FF); Official Selection: Lower East Side FF.</li>
-            <li><strong>I Work at the Cemetery (2021)</strong>: Best Cinematography — Montelupo Fiorentino IIFF; Best Film — Munich International Film Awards; Official Selection: Warsaw IFF, Molodist Kyiv IFF, British Independent FF, Ferrara FF, Prague Febiofest, Toronto Ukrainian FF.</li>
-            <li>Grants: State Agency of Ukraine for Film (Держкіно), Ukrainian Cultural Foundation (УКФ).</li>
+        <h2>Awards & Festivals</h2>
+        <ul style="max-width:800px; margin:0 auto; columns:2; gap:40px; font-size:17px;">
+            <li><strong>The Ark (2025)</strong>: Leon Gast Nominee (Woodstock FF), Lower East Side FF</li>
+            <li><strong>I Work at the Cemetery</strong>: Best Cinematography (Montelupo IIFF), Best Film (Munich IFA)</li>
+            <li>Warsaw IFF • Molodist • British Independent FF • Ferrara FF • Prague Febiofest</li>
+            <li>Grants: <strong>Держкіно</strong>, <strong>УКФ</strong></li>
         </ul>
     </section>
 
+    <!-- PARTNERS -->
     <section id="partners">
         <h2>Partners & Collaborators</h2>
         <div class="partners">
-            <a href="https://www.bfdnyc.com" target="_blank">BFD Productions (New York, USA)</a> |
-            <a href="https://www.hiddenlight.com/" target="_blank">Hidden Light (London, UK)</a> |
-            <a href="https://looma.pro" target="_blank">Looma (Kyiv, Ukraine)</a> |
-            <a href="https://evildoghouse.no/" target="_blank">Evil Doghouse Productions (Oslo, Norway)</a> |
-            <a href="https://www.goodmorningfilms.com.ua" target="_blank">Good Morning Films (Kyiv, Ukraine)</a> |
-            <a href="https://film.ua/" target="_blank">FILM.UA Group (Kyiv, Ukraine)</a> |
-            <a href="https://www.1plus1.ua" target="_blank">1+1 Media (Kyiv, Ukraine)</a>
+            <a href="https://www.bfdnyc.com" target="_blank" rel="noopener">BFD Productions (NYC)</a> |
+            <a href="https://www.hiddenlight.com" target="_blank" rel="noopener">Hidden Light (London)</a> |
+            <a href="https://looma.pro" target="_blank" rel="noopener">Looma (Kyiv)</a> |
+            <a href="https://evildoghouse.no" target="_blank" rel="noopener">Evil Doghouse (Oslo)</a> |
+            <a href="https://film.ua" target="_blank" rel="noopener">FILM.UA</a> |
+            <a href="https://www.1plus1.ua" target="_blank" rel="noopener">1+1 Media</a>
         </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Let's collaborate on your 2025 project. Target: 500+ leads via agencies like Driven By Creatives, The Talent Group; productions like Lemming Film, CZAR Amsterdam.</p>
-        <form action="https://docs.google.com/forms/d/e/https://forms.gle/QKNjoHz5tqW2GEiV9/viewform" method="POST" target="_blank"> <!-- Замініть YOUR_FORM_ID на ID вашої Google Forms -->
-            <input type="text" name="entry.123456789" placeholder="Name" required>
-            <input type="email" name="entry.987654321" placeholder="Email" required>
-            <textarea name="entry.456789123" placeholder="Message: Tell me about your project (IDFA/NFF co-prod?)" rows="5" required></textarea>
-            <button type="submit" class="cta">Submit</button>
-        </form>
-        <!-- Альтернатива: Iframe для embedded форми -->
-        <!-- <iframe src="https://docs.google.com/forms/d/e/https://forms.gle/QKNjoHz5tqW2GEiV9/viewform?embedded=true" width="640" height="800">Loading…</iframe> -->
-        <p>Or email: info@rakovskyi.com | LinkedIn: <a href="https://www.linkedin.com/in/rakovskiy/" target="_blank">Connect</a> | IG: @viacheslav.rakovsky</p>
+        <h2>Let’s Collaborate in 2025</h2>
+        <p style="text-align:center; max-width:700px; margin:0 auto 40px;">
+            Seeking co-productions with <strong>Driven By Creatives</strong>, <strong>The Talent Group</strong>, 
+            <strong>Lemming Film</strong>, <strong>CZAR Amsterdam</strong> for <strong>IDFA</strong> & <strong>NFF</strong>.
+        </p>
+
+        <div class="form-container">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfvUiZSjLPuL4YOY0bzvnPESjLvRezTFfS-tGAde1EMdpbeKg/formResponse" method="POST" target="_blank">
+                <input type="text" name="entry.1844962890" placeholder="Your Name" required>
+                <input type="email" name="entry.2139757458" placeholder="Your Email" required>
+                <textarea name="entry.1017753975" placeholder="Tell me about your project (IDFA? Co-prod?)" rows="5" required></textarea>
+                <button type="submit" class="cta">Send Message</button>
+            </form>
+        </div>
+
+        <p style="text-align:center; margin-top:32px; font-size:15px;">
+            Or email: <a href="mailto:info@rakovskyi.com">info@rakovskyi.com</a> | 
+            LinkedIn: <a href="https://www.linkedin.com/in/rakovskiy/" target="_blank" rel="noopener">Connect</a> | 
+            IG: <a href="https://instagram.com/viacheslav.rakovsky" target="_blank" rel="noopener">@viacheslav.rakovsky</a>
+        </p>
     </section>
+
 </body>
 </html>
