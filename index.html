@@ -1,37 +1,159 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Viacheslav Rakovskyi — DOP · Director · Producer</title>
-<meta name="description" content="Viacheslav Rakovskyi — Award-winning Ukrainian DOP / Director / Producer. Feature films, documentaries, series. Co-productions & festival track." />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-/* simplified for brevity */
-body {font-family: 'Inter', sans-serif; background: #0f0f10; color: #fff;}
-h1,h2,h3 {font-family: 'Playfair Display', serif;}
-.section-title {font-size: 28px; margin-bottom: 16px;}
-.cta {background: #d68a2a; color: #000; border:none; border-radius: 10px; padding: 10px 20px; text-decoration:none;}
-.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px;}
-.card img{width:100%; height:200px; object-fit:cover; border-radius:8px;}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vyacheslav Rakovsky — Cinematographer | DOP | Producer</title>
+  <meta name="description" content="Vyacheslav Rakovsky — DOP, director & producer from Kyiv. Member of the Ukrainian Association of Cinematographers. Cinematography for films, commercials & docs. Available for Europe / USA co-prods." />
+  <meta name="keywords" content="cinematographer, DOP, Kyiv, Ukrainian cinematography, film, documentary, commercial, Vyacheslav Rakovsky" />
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root{--bg:#060606;--muted:#bdbdbd;--accent:#46B5FF;--text:#fff;--maxw:1100px}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--bg)}
+    a{color:var(--accent)}
+    header{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:12px 24px;z-index:50}
+    .container{max-width:var(--maxw);margin:0 auto;padding:100px 20px 60px}
+    .hero{min-height:56vh;display:flex;align-items:center;justify-content:center;text-align:center}
+    .hero h1{font-size:34px;margin:0}
+    .hero p{color:var(--muted);margin:8px 0 18px}
+    .btn{padding:10px 16px;border-radius:8px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:var(--text);cursor:pointer;margin:4px}
+    .btn.primary{background:var(--accent);color:#04101a;border:none}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+    .card{background:#0b0b0b;border-radius:8px;overflow:hidden;cursor:pointer;min-height:200px;position:relative}
+    .card img{width:100%;height:100%;object-fit:cover;display:block}
+    .info{position:absolute;left:12px;bottom:12px;color:var(--text)}
+    .about{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:28px}
+    iframe{border:0}
+    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.85);z-index:200}
+    .frame{width:90%;max-width:1000px;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden}
+    .close{position:absolute;top:18px;right:18px;padding:8px 10px;border-radius:6px;background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--muted);cursor:pointer}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}}
+    @media(max-width:600px){.grid{grid-template-columns:1fr}}
+  </style>
 </head>
 <body>
-<header><h1>Viacheslav Rakovskyi — Portfolio</h1></header>
-<main>
-<section id="projects">
-<h2 class="section-title">Selected Projects</h2>
-<div class="grid">
-<div class="card"><img src="https://m.media-amazon.com/images/M/MV5BNTc0ZjQ5MDQtZjQ5Mi00ZjQ5LWE5ZjgtZjQ5ZjQ5ZjQ5ZjQ5XkEyXkFqcGdeQXVyMjM5MjM5MjM@._V1_.jpg" alt="The Ark"><p>The Ark (2025) — Documentary</p></div>
-<div class="card"><img src="https://img.youtube.com/vi/J027z6_LsEI/maxresdefault.jpg" alt="Kakhovka Object"><p>Kakhovka Object (2025)</p></div>
-<div class="card"><img src="https://i.ytimg.com/vi/5FIGVlEFTLc/maxresdefault.jpg" alt="I Work at the Cemetery"><p>I Work at the Cemetery (2021)</p></div>
-</div>
-</section>
-<section id="contact">
-<h2 class="section-title">Contact</h2>
-<p>Email: <a href="mailto:ViacheslavRakovskyi@gmail.com" class="cta">ViacheslavRakovskyi@gmail.com</a></p>
-</section>
-</main>
-<footer><p>© 2025 Viacheslav Rakovskyi</p></footer>
+  <header>
+    <div class="brand"><strong>Vyacheslav Rakovsky</strong> — DOP | Director | Producer</div>
+    <nav>
+      <a href="#work" style="color:var(--muted);margin-right:12px">Work</a>
+      <a href="#about" style="color:var(--muted);margin-right:12px">About</a>
+      <a href="#contact" style="color:var(--muted)">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <h1 id="hero-name">Vyacheslav Rakovsky — DOP | Director | Producer</h1>
+        <p id="hero-tag">Frames that build bridges. DOP | Director | Producer. Ready for Europe 2025.</p>
+        <div style="margin-top:12px">
+          <a class="btn primary" id="openReel" href="https://vimeo.com/showcase/8943593" target="_blank" rel="noopener">Watch Reel (Vimeo Showcase)</a>
+          <a class="btn" href="#work">View Portfolio</a>
+          <a class="btn" href="assets_CV_DOP_RAKOVSKYI_2025_Eng.pdf" download>Download CV (EN)</a>
+        </div>
+        <div style="color:var(--muted);margin-top:12px;font-size:13px">
+          Member: Ukrainian Association of Cinematographers (derzkin.gov.ua) · UKF grant: Accidental Passenger (2022) · Dzyga Best Cinematography (2021)
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2 style="margin-bottom:8px">Selected Works</h2>
+      <div class="grid">
+        <!-- Cards: use data-youtube or data-vimeo where available -->
+        <div class="card" data-youtube="31b4_TdcFxM" title="Turn on the Light (2020)">
+          <img src="poster-turn-on-the-light.jpg" alt="Turn on the Light poster">
+          <div class="info"><strong>Turn on the Light</strong><div style="color:var(--muted)">Documentary · Marrakech FF support</div></div>
+        </div>
+
+        <div class="card" data-external="https://www.imdb.com/title/tt8268302/" title="I Work at the Cemetery">
+          <img src="poster-i-work-cemetery.jpg" alt="I Work at the Cemetery poster">
+          <div class="info"><strong>I Work at the Cemetery</strong><div style="color:var(--muted)">Feature dramedy · Warsaw IFF · State funding</div></div>
+        </div>
+
+        <div class="card" data-external="https://www.imdb.com/title/tt34467658/" title="THE ARK">
+          <img src="poster-the-ark.jpg" alt="THE ARK poster">
+          <div class="info"><strong>THE ARK</strong><div style="color:var(--muted)">Director / Cinematographer · Woodstock FF Premiere</div></div>
+        </div>
+
+        <div class="card" data-youtube="_2uG5wt0z64" title="The Dam">
+          <img src="poster-the-dam.jpg" alt="The Dam poster">
+          <div class="info"><strong>The Dam</strong><div style="color:var(--muted)">Horror-Sci-Fi · FILM.UA · Warsaw premiere Nov 8, 2025</div></div>
+        </div>
+
+        <div class="card" data-youtube="5FIGVlEFTLc" title="Family Album">
+          <img src="poster-family-album.jpg" alt="Family Album poster">
+          <div class="info"><strong>Family Album</strong><div style="color:var(--muted)">Documentary · Warsaw IFF · MUBI</div></div>
+        </div>
+
+        <div class="card" data-youtube="Y0521CEqyH8" title="Accidental Passenger">
+          <img src="poster-accidental.jpg" alt="Accidental Passenger poster">
+          <div class="info"><strong>Accidental Passenger</strong><div style="color:var(--muted)">Director & Cinematographer · UKF grant 500k UAH</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 style="margin-top:28px">About</h2>
+      <div class="about">
+        <div>
+          <p style="color:var(--muted)"><strong>I’m Vyacheslav Rakovsky</strong>, DOP, director and producer from Kyiv, member of the Ukrainian Association of Cinematographers (derzkin.gov.ua). Since 2018 I turn reality into frames that change perspectives — from dark comedy on cemeteries to hope in shelters. My projects connect UA-Europe-USA with premieres at Warsaw IFF and Woodstock FF. I treat every setup as an act of faith. Available for DP work (IDFA co-prods) and brand stories. Let’s shoot your story together.</p>
+        </div>
+        <aside style="background:#0b0b0b;padding:14px;border-radius:8px;color:var(--muted)">
+          <strong>Verified</strong>
+          <ul>
+            <li>Member — Ukrainian Association of Cinematographers (derzkin.gov.ua)</li>
+            <li>UKF grant — Accidental Passenger (2022)</li>
+            <li>Dzyga — Best Cinematography (Don't Let Go, 2021)</li>
+            <li>State funding — 10M UAH for I Work at the Cemetery</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:22px">
+      <h2>Contact</h2>
+      <div style="display:flex;gap:20px;flex-wrap:wrap">
+        <div style="min-width:240px;background:#0b0b0b;padding:14px;border-radius:8px">
+          <p style="margin:0 0 6px"><strong>Email:</strong> <a href="mailto:ViacheslavRakovskyi@gmail.com">ViacheslavRakovskyi@gmail.com</a></p>
+          <p style="margin:0 0 6px"><strong>Phone:</strong> +38 (067) 182-8217</p>
+          <p style="margin:0 0 6px"><strong>Location:</strong> Kyiv, Ukraine — Available worldwide (GMT+2)</p>
+          <p style="margin:8px 0 0"><a class="btn" href="#contact-form">Connect for Co-Prod</a></p>
+        </div>
+        <div id="contact-form" style="flex:1 1 420px;background:#0b0b0b;padding:0;border-radius:8px;overflow:hidden">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDUMMYFORM/viewform?embedded=true" width="100%" height="540">Loading…</iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer style="margin-top:34px;color:var(--muted);font-size:13px">© 2025 Vyacheslav Rakovsky — Cinematography Portfolio</footer>
+  </main>
+
+  <div class="modal" id="videoModal" role="dialog" aria-hidden="true">
+    <button class="close" id="closeModal">Close</button>
+    <div class="frame" id="videoFrame"></div>
+  </div>
+
+  <script>
+    // Handle card clicks: open youtube or external links in modal/new tab
+    document.querySelectorAll('.card').forEach(card=>{
+      card.addEventListener('click',()=>{
+        const yt = card.dataset.youtube;
+        const vimeo = card.dataset.vimeo;
+        const ext = card.dataset.external;
+        if (ext) { window.open(ext,'_blank','noopener'); return; }
+        if (yt) { openModalYT(yt); return; }
+        if (vimeo) { openModalVimeo(vimeo); return; }
+      });
+    });
+
+    const modal = document.getElementById('videoModal');
+    const frame = document.getElementById('videoFrame');
+    document.getElementById('closeModal').addEventListener('click',closeModal);
+    function openModalYT(id){ frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+encodeURIComponent(id)+'?autoplay=1" allow="autoplay; fullscreen" allowfullscreen></iframe>'; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');}
+    function openModalVimeo(id){ frame.innerHTML = '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/'+encodeURIComponent(id)+'?autoplay=1" allow="autoplay; fullscreen" allowfullscreen></iframe>'; modal.style.display='flex'; modal.setAttribute('aria-hidden','false');}
+    function closeModal(){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); frame.innerHTML=''; }
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
+  </script>
 </body>
 </html>
